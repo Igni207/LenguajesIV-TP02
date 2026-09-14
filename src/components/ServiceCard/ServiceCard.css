@@ -1,0 +1,12 @@
+.service-card {
+  background-color: var(--color-superficie);
+  border: 3px solid var(--color-acento);
+  border-radius: var(--radio-grande);
+  padding: 20px;
+  text-align: left;
+}
+
+.service-card h3 {
+  margin-top: 0;
+  text-align: center;
+}

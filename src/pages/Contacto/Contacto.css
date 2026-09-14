@@ -1,0 +1,14 @@
+.contacto-info {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contacto-info li {
+  background-color: var(--color-superficie);
+  border: 3px solid var(--color-acento);
+  border-radius: var(--radio-grande);
+  padding: 12px;
+  margin-bottom: 10px;
+}
