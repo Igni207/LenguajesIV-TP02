@@ -4,9 +4,7 @@ function Inicio() {
   return (
     <section className="inicio">
       <h2>Inicio</h2>
-      <p>
-        Trabajo Práctico N°2 Lenguajes IV.
-      </p>
+      <p>Prueba Inicio TP</p>
     </section>
   )
 }
