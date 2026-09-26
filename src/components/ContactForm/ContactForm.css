@@ -1,0 +1,53 @@
+.contact-form {
+  max-width: 400px;
+  margin: 20px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.campo label {
+  font-weight: bold;
+}
+
+.campo input,
+.campo textarea {
+  background-color: var(--color-superficie);
+  color: var(--color-texto);
+  border: 2px solid var(--color-acento);
+  border-radius: var(--radio-chico);
+  padding: 10px;
+  font-family: inherit;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+  outline: none;
+  border-color: var(--color-texto);
+}
+
+.contador-caracteres {
+  align-self: flex-end;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.mensaje-error {
+  color: #ff5555;
+  font-weight: bold;
+  margin: 0;
+}
+
+.mensaje-exito {
+  color: #55ff88;
+  font-weight: bold;
+}

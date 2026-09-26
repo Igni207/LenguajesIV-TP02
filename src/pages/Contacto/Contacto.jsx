@@ -1,3 +1,4 @@
+import ContactForm from '../../components/ContactForm/ContactForm'
 import './Contacto.css'
 
 function Contacto() {
@@ -9,6 +10,7 @@ function Contacto() {
         <li>Teléfono: +54 387 000-0000</li>
         <li>Ubicación: Salta, Argentina</li>
       </ul>
+      <ContactForm />
     </section>
   )
 }
