@@ -88,9 +88,11 @@ function ContactForm() {
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
-          nombre: valores.nombre,
-          correo: valores.correo,
-          mensaje: valores.mensaje,
+          name: valores.nombre,
+          email: valores.correo,
+          message: valores.mensaje,
+          time: new Date().toLocaleString('es-AR'),
+          title: 'Formulario de contacto',
         },
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       )
