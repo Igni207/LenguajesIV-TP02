@@ -64,7 +64,7 @@ function Inicio() {
   return (
     <section className="inicio">
       <h2>Inicio</h2>
-      <p>Bienvenido. Estos son algunos de los Pokémon obtenidos desde la PokeAPI.</p>
+      <p>Estos son algunos de los Pokémon obtenidos desde la PokeAPI.</p>
 
       {cargando && <p>Cargando pokémon...</p>}
       {error && <p className="inicio-error">{error}</p>}
